@@ -11,7 +11,7 @@ const calculator = {
         const answer = n1 / n2;
         callback(answer)
     },
-    subtract: function (n1, n2, callback) {
+    subtract: function (n1, n2, callback) { 
         const answer = n1 - n2;
         callback(answer)
     }
